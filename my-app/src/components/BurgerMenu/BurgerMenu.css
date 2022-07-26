@@ -1,0 +1,33 @@
+
+
+.slider{
+    position: fixed;
+    min-width: 30%;
+    height: 100vh;
+    left: -30%;
+    background-color: #303030;
+    transition: 1s ease;
+    margin-top: -45px;
+    opacity: 0.2;  
+}
+
+.slider.active{
+    left:0;
+    transition: 1s ease;
+    
+}
+
+.slider ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+

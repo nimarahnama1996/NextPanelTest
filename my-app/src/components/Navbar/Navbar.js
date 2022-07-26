@@ -8,6 +8,7 @@ import './Navbar.css'
 
 
 import logo from '../../img/logo.svg'
+import BurgerMenu from '../BurgerMenu/BurgerMenu'
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
         <div className='navbar-container'>
 
             <ul className='navbar-nav-left'>
-              <li><MenuOutlined /></li>
+              <li><BurgerMenu/></li>
             </ul>
 
             <div className='navbar-brand'>
