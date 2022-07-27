@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/NextPanelTest/static/css/main.0b3ec270.css",
-    "main.js": "/NextPanelTest/static/js/main.63c65cad.js",
+    "main.css": "/NextPanelTest/static/css/main.648f33d9.css",
+    "main.js": "/NextPanelTest/static/js/main.20be325b.js",
+    "static/media/profile-icon.svg": "/NextPanelTest/static/media/profile-icon.8c72ac6c2f39c5b73e551d8a78024267.svg",
     "static/media/logo.svg": "/NextPanelTest/static/media/logo.4036a41313c0fff7aba5ddf663b039ce.svg",
+    "static/media/setting-icon.svg": "/NextPanelTest/static/media/setting-icon.1b0ff6d707211ca893f6f364b4bfb276.svg",
+    "static/media/notification-icon.svg": "/NextPanelTest/static/media/notification-icon.50eaa43826d3b4ed0f258d04237b72da.svg",
     "index.html": "/NextPanelTest/index.html",
-    "main.0b3ec270.css.map": "/NextPanelTest/static/css/main.0b3ec270.css.map",
-    "main.63c65cad.js.map": "/NextPanelTest/static/js/main.63c65cad.js.map"
+    "main.648f33d9.css.map": "/NextPanelTest/static/css/main.648f33d9.css.map",
+    "main.20be325b.js.map": "/NextPanelTest/static/js/main.20be325b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b3ec270.css",
-    "static/js/main.63c65cad.js"
+    "static/css/main.648f33d9.css",
+    "static/js/main.20be325b.js"
   ]
 }
