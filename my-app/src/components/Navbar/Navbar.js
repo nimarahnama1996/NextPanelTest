@@ -8,8 +8,8 @@ import './Navbar.css'
 
 
 import logo from '../../img/logo.svg'
-import BurgerMenu from '../BurgerMenu/BurgerMenu'
 import MoreIcons from '../MoreIcons/MoreIcons'
+import HumbergerMenu from '../HumbergerMenu/HumbergerMenu'
 
 const Navbar = () => {
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='navbar-container'>
 
             <ul className='navbar-nav-left'>
-              <li><BurgerMenu/></li>
+            <HumbergerMenu/>
             </ul>
 
             <div className='navbar-brand'>

@@ -2,11 +2,10 @@ import React,{useState} from 'react'
 import Hamburger from 'hamburger-react'
 
 
+import './BurgerMenuTest.css'
 
-import './BurgerMenu.css'
 
-
-const BurgerMenu = () => {
+const BurgerMenuTest = () => {
 
   const [isOpen, setOpen] = useState(false)
 
@@ -17,4 +16,4 @@ const BurgerMenu = () => {
   )
 }
 
-export default BurgerMenu
+export default BurgerMenuTest
