@@ -9,7 +9,7 @@ import './Navbar.css'
 
 import logo from '../../img/logo.svg'
 import BurgerMenu from '../BurgerMenu/BurgerMenu'
-
+import MoreIcons from '../MoreIcons/MoreIcons'
 
 const Navbar = () => {
   return (
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
             <ul className='navbar-nav-right'>
-              <li><MoreOutlined /></li>
+              <li><MoreIcons/></li>
             </ul>
         </div>
     </nav>

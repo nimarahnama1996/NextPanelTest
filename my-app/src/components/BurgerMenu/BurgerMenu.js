@@ -1,36 +1,18 @@
 import React,{useState} from 'react'
-import {MenuOutlined,CloseOutlined} from '@ant-design/icons'
+import Hamburger from 'hamburger-react'
 
 
 
 import './BurgerMenu.css'
 
 
-
 const BurgerMenu = () => {
 
-    const [active,setActive] = useState(false)
-
-
-    const showMenu = () => {
-        setActive(!active)
-    }
+  const [isOpen, setOpen] = useState(false)
 
   return (
-    <div className='header'>
-
-     <div className='menu-icon'>
-        <MenuOutlined className='menu'  onClick={showMenu}/>
-     </div>
-     <nav className={active ? 'slider active' :  'slider'}>
-        <ul>
-
-        <div className='closed'>
-            <CloseOutlined className='close' onClick={showMenu}/>
-        </div>
-      
-        </ul>
-     </nav>
+    <div className={!isOpen ?   '' : 'slider active'}>
+    <Hamburger   size={14} toggled={isOpen} toggle={setOpen} />
     </div>
   )
 }

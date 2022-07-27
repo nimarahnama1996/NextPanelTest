@@ -1,0 +1,59 @@
+
+
+.sliders{
+    position: fixed;
+    min-width: 10%;
+    height: 100vh;
+    right: -25%;
+    transition: 1s ease;
+    margin-top: 70px;
+    
+ 
+}
+
+.sliders.actives{
+    right:0;
+    transition: 1s ease;
+    margin-top: -57px;
+    background: #151515;
+    
+    
+}
+
+.sliders ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.navbar-icons  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;  
+}
+
+
+.navbar-bell img {
+    height: 14px;
+    width: 16px;
+    margin-top: 15px;
+}
+
+.navbar-setting img {
+    height: 14px;
+    width: 16px;
+    margin-top: 20px;
+}
+
+.navbar-profile img {
+    height: 14px;
+    width: 16px;
+    margin-top: 15px;
+}
+
+
+
+
