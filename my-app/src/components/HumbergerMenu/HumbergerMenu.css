@@ -22,6 +22,7 @@
 
 .navbar-close-btn{
     color: white;
+    font-size: 20px;
     margin-top: 30px;
     margin-left: 50px;
 }
@@ -30,4 +31,22 @@
 .navbar-burger-menu{
     color: white;
 }
+
+
+.sidebar-overview-icon img{
+    width: 17px;
+    margin-right: 5px;
+}
+
+.sidebar-notification-icon img{
+    width: 17px;
+    margin-right: 5px;
+}
+
+.sidebar-content-icon{
+    width: 17px;
+    margin-right: 125px;
+   
+}
+
 

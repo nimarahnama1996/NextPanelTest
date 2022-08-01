@@ -1,0 +1,21 @@
+.ant-breadcrumb {   
+    margin-left: 15px;
+    margin-top: 10px;
+    
+    }
+    
+    .ant-breadcrumb-link{
+        color:white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    .ant-breadcrumb-separator{
+        color: white;
+    }
+    
+    .ant-breadcrumb-link a {
+        color:white;
+        font-size: 14px;
+        font-weight: 700;
+    }

@@ -33,12 +33,12 @@ const MoreIcons = () => {
 
        <div className='navbar-icons'>
       <ul>
-        <li><PoweroffOutlined  style={{fontSize:'12px'}}/></li>
+        <li><PoweroffOutlined  style={{fontSize:'21px'}}/></li>
         <li className='navbar-bell'><img src={Bell} alt='bell' /></li>
         <li className='navbar-setting'><img src={Setting} alt='setting'/></li>
-        <li><MessageOutlined style={{fontSize:'12px', marginTop:'20px'}}/></li>
+        <li><MessageOutlined style={{fontSize:'21px', marginTop:'30px'}}/></li>
         <li className='navbar-profile'><img src={Profile} alt='profile'/></li>
-        <li><SearchOutlined style={{fontSize:'12px',marginTop:'20px'}}/></li>
+        <li><SearchOutlined style={{fontSize:'23px',marginTop:'30px'}}/></li>
       </ul>
     </div>
      
