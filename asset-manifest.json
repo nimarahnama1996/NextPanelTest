@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/NextPanelTest/static/css/main.e2e92472.css",
-    "main.js": "/NextPanelTest/static/js/main.491fe772.js",
+    "main.css": "/NextPanelTest/static/css/main.24d98a07.css",
+    "main.js": "/NextPanelTest/static/js/main.1daf90a3.js",
+    "pdfmake.js": "/NextPanelTest/static/js/pdfmake.6d59ef04.chunk.js",
+    "canvg.js": "/NextPanelTest/static/js/canvg.cd16f39d.chunk.js",
+    "xlsx.js": "/NextPanelTest/static/js/xlsx.b84eb5bd.chunk.js",
+    "static/js/458.26c0958c.chunk.js": "/NextPanelTest/static/js/458.26c0958c.chunk.js",
     "static/media/profile-icon.svg": "/NextPanelTest/static/media/profile-icon.bcfd4beba4324e56ab72bb91f8e31dc1.svg",
     "static/media/logo.svg": "/NextPanelTest/static/media/logo.4036a41313c0fff7aba5ddf663b039ce.svg",
     "static/media/setting-icon.svg": "/NextPanelTest/static/media/setting-icon.1b0ff6d707211ca893f6f364b4bfb276.svg",
@@ -14,11 +18,14 @@
     "static/media/ota.svg": "/NextPanelTest/static/media/ota.af2a0871e121b04ac362eedf20b3b07c.svg",
     "static/media/lanchers.svg": "/NextPanelTest/static/media/lanchers.1263d4afba20496309c05d8a9615f619.svg",
     "static/media/monitoring.svg": "/NextPanelTest/static/media/monitoring.6e2eb88a425394637c982e3bfada13b9.svg",
-    "main.e2e92472.css.map": "/NextPanelTest/static/css/main.e2e92472.css.map",
-    "main.491fe772.js.map": "/NextPanelTest/static/js/main.491fe772.js.map"
+    "main.24d98a07.css.map": "/NextPanelTest/static/css/main.24d98a07.css.map",
+    "main.1daf90a3.js.map": "/NextPanelTest/static/js/main.1daf90a3.js.map",
+    "pdfmake.6d59ef04.chunk.js.map": "/NextPanelTest/static/js/pdfmake.6d59ef04.chunk.js.map",
+    "canvg.cd16f39d.chunk.js.map": "/NextPanelTest/static/js/canvg.cd16f39d.chunk.js.map",
+    "458.26c0958c.chunk.js.map": "/NextPanelTest/static/js/458.26c0958c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2e92472.css",
-    "static/js/main.491fe772.js"
+    "static/css/main.24d98a07.css",
+    "static/js/main.1daf90a3.js"
   ]
 }
