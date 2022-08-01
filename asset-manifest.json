@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NextPanelTest/static/css/main.a98949f2.css",
-    "main.js": "/NextPanelTest/static/js/main.cb1825ef.js",
+    "main.css": "/NextPanelTest/static/css/main.e2e92472.css",
+    "main.js": "/NextPanelTest/static/js/main.491fe772.js",
     "static/media/profile-icon.svg": "/NextPanelTest/static/media/profile-icon.bcfd4beba4324e56ab72bb91f8e31dc1.svg",
     "static/media/logo.svg": "/NextPanelTest/static/media/logo.4036a41313c0fff7aba5ddf663b039ce.svg",
     "static/media/setting-icon.svg": "/NextPanelTest/static/media/setting-icon.1b0ff6d707211ca893f6f364b4bfb276.svg",
@@ -14,11 +14,11 @@
     "static/media/ota.svg": "/NextPanelTest/static/media/ota.af2a0871e121b04ac362eedf20b3b07c.svg",
     "static/media/lanchers.svg": "/NextPanelTest/static/media/lanchers.1263d4afba20496309c05d8a9615f619.svg",
     "static/media/monitoring.svg": "/NextPanelTest/static/media/monitoring.6e2eb88a425394637c982e3bfada13b9.svg",
-    "main.a98949f2.css.map": "/NextPanelTest/static/css/main.a98949f2.css.map",
-    "main.cb1825ef.js.map": "/NextPanelTest/static/js/main.cb1825ef.js.map"
+    "main.e2e92472.css.map": "/NextPanelTest/static/css/main.e2e92472.css.map",
+    "main.491fe772.js.map": "/NextPanelTest/static/js/main.491fe772.js.map"
   },
   "entrypoints": [
-    "static/css/main.a98949f2.css",
-    "static/js/main.cb1825ef.js"
+    "static/css/main.e2e92472.css",
+    "static/js/main.491fe772.js"
   ]
 }
