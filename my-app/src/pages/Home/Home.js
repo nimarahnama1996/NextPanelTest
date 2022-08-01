@@ -1,5 +1,6 @@
 import React from 'react'
 import MapHome from '../../components/MapHome/MapHome'
+import MapOverview from '../../components/MapOverview/MapOverview'
 import OnlineUsers from '../../components/OnlineUsers/OnlineUsers'
 
 
@@ -20,7 +21,7 @@ const Home = () => {
     </div>
 
     <main>
-      <MapHome/>
+     <MapOverview/>
     </main>
 
     </div>
