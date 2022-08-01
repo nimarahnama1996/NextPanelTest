@@ -2,7 +2,7 @@
 
 .sliders{
     position: fixed;
-    min-width: 12%;
+    min-width: 20%;
     height: 100vh;
     right: -100%;
     transition: 1s linear;
@@ -14,7 +14,7 @@
 .sliders.actives{
     right:0;
     transition: 1s linear;
-    margin-top: -57px;
+    margin-top: -47px;
     background: #151515;
     
     

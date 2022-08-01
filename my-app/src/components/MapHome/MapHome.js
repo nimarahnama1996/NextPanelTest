@@ -5,8 +5,8 @@ import mapboxgl from 'mapbox-gl';
 import './MapHome.css'
 
 
-mapboxgl.accessToken =
-  'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA';
+mapboxgl.accessToken ='pk.eyJ1IjoibmV4dGxsYyIsImEiOiJjbDV4Z21xZzUwdDF1M2lucG80eTh6MDBhIn0.6H_GxBFoUQDI58Za_iJdrg'
+  
 
 
 
