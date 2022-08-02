@@ -14,7 +14,7 @@ import notificationIcon from '../../img/notification.svg'
 import lancherIcon from '../../img/lanchers.svg'
 import otaIcon from '../../img/ota.svg'
 import monitoringIcon from '../../img/monitoring.svg'
-import contentsIcon from '../../img/contents.svg'
+
 
 
 
@@ -55,7 +55,6 @@ const HumbergerMenu = () => {
             color:'#ffffff',
            marginTop:'30px'
              }}
-        mode="inline"
         theme='dark'
         
       >
@@ -74,7 +73,7 @@ const HumbergerMenu = () => {
 
 
           
-          <SubMenu key="3" title="Contents"  icon={<EyeOutlined/>} >
+          <SubMenu key="3" title="Contents"   icon={<EyeOutlined/>} >
       
         
             <Menu.Item key="4">Filimo </Menu.Item>

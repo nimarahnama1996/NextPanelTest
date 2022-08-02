@@ -1,7 +1,8 @@
 import React from 'react'
-import MapHome from '../../components/MapHome/MapHome'
+import HomeLineChart from '../../components/HomeLineChart/HomeLineChart'
 import MapOverview from '../../components/MapOverview/MapOverview'
 import OnlineUsers from '../../components/OnlineUsers/OnlineUsers'
+import SummaryOverview from '../../components/SummaryOverview/SummaryOverview'
 
 
 import './Home.css'
@@ -23,6 +24,14 @@ const Home = () => {
     <main>
      <MapOverview/>
     </main>
+
+    <div>
+      <SummaryOverview/>
+    </div>
+
+    <div>
+      <HomeLineChart/>
+    </div>
 
     </div>
 

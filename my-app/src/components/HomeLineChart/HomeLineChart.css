@@ -1,0 +1,20 @@
+.chart-home-title h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 300; 
+    margin-left: 19px;
+    margin-top: 20px;
+   }
+   
+   .chart-home-title span{
+       color: white;
+       font-size: 18px;
+       font-weight: 700;
+   }
+   
+   .home-line-chart{
+   width: 370px;
+   margin-left: 20px;
+  
+
+   }
