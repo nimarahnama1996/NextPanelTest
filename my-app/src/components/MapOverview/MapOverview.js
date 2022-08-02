@@ -19,7 +19,7 @@ class MapOverview extends Component {
     var chart = am4core.create("chartdiv", am4maps.MapChart);
 
     // Set map definition
-    chart.geodataSource.url = "https://www.amcharts.com/lib/4/geodata/json/japanLow.json";
+    chart.geodataSource.url = "https://www.amcharts.com/lib/4/geodata/json/worldLow.json";
     chart.geodataSource.events.on("parseended", function(event) {
       let data = [];
       for(var i = 0; i < event.target.data.features.length; i++) {

@@ -68,7 +68,7 @@ const HomeLineChart = () => {
    </div>
       
     <div className='home-line-chart'>
-    <Line data={data} options={options} />
+    <Line data={data} options={options}  width={340} height={150}/>
     </div>
     </div>
   )
