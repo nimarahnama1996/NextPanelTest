@@ -62,13 +62,13 @@ const HomeLineChart = () => {
     <h3>Requests <span>per second</span> </h3> 
    
    <div >
-   <img src={arrowChart} alt='arrow' style={{marginLeft:'340px', marginTop:'-70px'}}/>
-    <img src={closeChart} alt='close' style={{marginLeft:'360px', marginTop:'-113px'}}/>
+   <img src={arrowChart} alt='arrow' style={{marginLeft:'270px', marginTop:'-70px'}}/>
+    <img src={closeChart} alt='close' style={{marginLeft:'300px', marginTop:'-113px'}}/>
    </div>
    </div>
       
     <div className='home-line-chart'>
-    <Line data={data} options={options}  width={340} height={150}/>
+    <Line data={data} options={options}  width={310} height={150}/>
     </div>
     </div>
   )
