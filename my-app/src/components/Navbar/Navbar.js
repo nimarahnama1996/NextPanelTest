@@ -10,6 +10,7 @@ import './Navbar.css'
 import logo from '../../img/logo.svg'
 import MoreIcons from '../MoreIcons/MoreIcons'
 import HumbergerMenu from '../HumbergerMenu/HumbergerMenu'
+import Sidebar from '../SidebarMenu/Sidebar'
 
 const Navbar = () => {
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
         <div className='navbar-container'>
 
             <ul className='navbar-nav-left'>
-            <HumbergerMenu/>
+            <Sidebar/>
             </ul>
 
             <div className='navbar-brand'>
