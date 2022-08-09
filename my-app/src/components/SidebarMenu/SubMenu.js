@@ -11,11 +11,10 @@ const SidebarLink = styled(Link)`
   list-style: none;
   height: 60px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
   &:hover {
-    background: #D9D9D9;
+    background: #7C7B7B;
     color:#fff;
-    border-left: 4px solid #632ce4;
     cursor: pointer;
   }
 `;
@@ -32,10 +31,13 @@ const DropdownLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   color: #f5f5f5;
-  font-size: 18px;
+  font-size: 12px;
+  font-weight:600px;
+  
   &:hover {
-    background: #D9D9D9;
+    background: #7C7B7B;
     color:#fff;
+    font-weight:700px;
     cursor: pointer;
   }
 `;
