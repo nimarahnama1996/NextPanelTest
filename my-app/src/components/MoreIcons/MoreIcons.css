@@ -5,8 +5,10 @@
     min-width: 20%;
     height: 100vh;
     right: -100%;
+    bottom: 0% ;
     transition: 1s linear;
     margin-top: 70px;
+    z-index: 10;
     
  
 }
