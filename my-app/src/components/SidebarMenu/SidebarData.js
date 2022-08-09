@@ -4,25 +4,34 @@ import * as RiIcons from 'react-icons/ri';
 import * as GrIcons from 'react-icons/gr';
 import * as BsIcons from 'react-icons/bs';
 
+
+import lanchers from '../../img/lanchers.svg'
+import overview from '../../img/overview.svg'
+import notification from '../../img/notification.svg'
+import contents from '../../img/contents.svg'
+import ota from '../../img/ota.svg'
+import monitoring from '../../img/monitoring.svg'
+
+
 export const SidebarData = [
   {
     title: 'Overview',
     path: '/',
-    icon: <AiIcons.AiOutlineHome />,
+    icon: <img src={overview} alt='overview'/>
    
   },
 
   {
     title: 'Notifications',
     path: '/notifications',
-    icon: <AiIcons.AiOutlineBell/>,
+    icon: <img src={notification} alt='notification'/>,
 
   },
 
   {
     title: 'Contents',
     path: '/contents',
-    icon: <AiIcons.AiOutlineEye/>,
+    icon: <img src={contents} alt='contents'/>,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -49,20 +58,20 @@ export const SidebarData = [
   {
     title: 'Launchers',
     path: '/launchers',
-    icon: <AiIcons.AiOutlineAppstore/>
+    icon: <img src={lanchers} alt='lanchers'/>
   },
 
   {
     title: 'OTA Management',
     path: '/ota',
-    icon: <BsIcons.BsCloudUpload/>
+    icon: <img src={ota} alt='ota'/>,
   },
 
   
   {
     title: 'Monitoring',
     path: '/monitoring',
-    icon: <AiIcons.AiOutlineFundProjectionScreen />,
+    icon: <img src={monitoring} alt='monitoring'/>,
 
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,

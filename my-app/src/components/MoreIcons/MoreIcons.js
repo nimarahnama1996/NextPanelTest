@@ -3,9 +3,10 @@ import {MoreOutlined,CloseOutlined,PoweroffOutlined,MessageOutlined,SearchOutlin
 
 
 
-import Bell from '../../img/notification-icon.svg'
-import Setting from '../../img/setting-icon.svg'
+import Bell from '../../img/notification.svg'
+import Setting from '../../img/settting.svg'
 import Profile from '../../img/profile-icon.svg'
+import Search from '../../img/search-icon.svg'
 import './MoreIcons.css'
 
 
@@ -38,7 +39,7 @@ const MoreIcons = () => {
         <li className='navbar-setting'><img src={Setting} alt='setting'/></li>
         <li><MessageOutlined style={{fontSize:'21px', marginTop:'30px'}}/></li>
         <li className='navbar-profile'><img src={Profile} alt='profile'/></li>
-        <li><SearchOutlined style={{fontSize:'23px',marginTop:'30px'}}/></li>
+        <li className='navbar-search'><img src={Search} alt='Search'/></li>
       </ul>
     </div>
      
