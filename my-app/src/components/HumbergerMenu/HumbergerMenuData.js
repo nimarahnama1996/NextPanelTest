@@ -13,7 +13,7 @@ import ota from '../../img/ota.svg'
 import monitoring from '../../img/monitoring.svg'
 
 
-export const SidebarData = [
+export const HumbergerMenuData = [
   {
     title: 'Overview',
     path: '/',

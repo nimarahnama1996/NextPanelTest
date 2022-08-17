@@ -3,3 +3,64 @@
     height: 150px;
    
 }
+
+
+
+@media only screen and (min-width: 460px){
+    .map-overview{
+        width: 430px;
+        height: 150px;
+    }
+}
+
+@media only screen and (min-width: 540px){
+    .map-overview{
+        width: 510px;
+        height: 150px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 630px){
+    .map-overview{
+        width: 410px;
+        height: 220px;
+        margin-left:210px;
+       
+    }
+}
+
+
+@media only screen and (min-width: 740px){
+    .map-overview{
+        width: 500px;
+        height: 230px;
+        margin-left:210px;
+       
+    }
+}
+
+
+@media only screen and (min-width: 820px){
+    .map-overview{
+        width: 570px;
+    }
+}
+
+@media only screen and (min-width: 970px){
+    .map-overview{
+        width: 690px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .map-overview{
+        width: 500px;
+        height: 230px;
+        margin-left:210px;
+       
+    }
+}
+

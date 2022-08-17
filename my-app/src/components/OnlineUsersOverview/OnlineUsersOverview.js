@@ -1,14 +1,14 @@
 import React from 'react'
 
 
-import './OnlineUsers.css'
+import './OnlineUsersOverview.css'
 
 
 
 import usersLocation from '../../img/location.svg'
 
 
-const OnlineUsers = () => {
+const OnlineUsersOverview = () => {
   return (
     <div className='online-user-home'>
         <h4>Online users</h4>
@@ -18,4 +18,4 @@ const OnlineUsers = () => {
   )
 }
 
-export default OnlineUsers
+export default OnlineUsersOverview

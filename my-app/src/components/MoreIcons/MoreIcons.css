@@ -62,6 +62,12 @@
     margin-top: 30px;
 }
 
+@media only screen and (min-width: 630px){
+ .header{
+    display: none;
+ }
+}
+
 
 
 

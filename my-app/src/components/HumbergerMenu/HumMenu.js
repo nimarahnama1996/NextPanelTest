@@ -42,7 +42,7 @@ const DropdownLink = styled(Link)`
   }
 `;
 
-const SubMenu = ({ item }) => {
+const HumMenu = ({ item }) => {
   const [subnav, setSubnav] = useState(false);
 
   const showSubnav = () => setSubnav(!subnav);
@@ -75,4 +75,4 @@ const SubMenu = ({ item }) => {
   );
 };
 
-export default SubMenu;
+export default HumMenu;

@@ -1,11 +1,27 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- 
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
 
-body{
-  background: linear-gradient(107.56deg, #151515 0%, #000000 100%); 
-  font-family: 'Open Sans';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  body{
+    background: linear-gradient(107.56deg, #151515 0%, #000000 100%); 
+    font-family: 'Open Sans';
+  }
+
+
+
+.home,
+.reports,
+.products,
+.team,
+.reports {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }

@@ -13,13 +13,13 @@ import settingBlueSummary from '../../img/setting2.svg'
 
 const SummaryOverview = () => {
   return (
-    <div>
+    <div >
 
         <div className='summary-overview-title'>
 
         <h1>Summary</h1>
 
-      <div>
+      <div className='summary-overview-icons'>
       <img src={settingSummary}  alt='setting' style={{marginRight:'10px'}}/>
         <img src={refreshSummary} alt='refresh' style={{marginRight:'10px'}}/>
         <img src={closeSummary} alt='close' style={{marginRight:'10px'}}/>

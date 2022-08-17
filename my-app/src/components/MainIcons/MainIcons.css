@@ -1,0 +1,137 @@
+.main-icons-nav ul{
+    display: flex;
+    flex-direction: row;
+   justify-content: right;
+    gap: 20px;
+}
+
+.main-icons-profile img{
+    height: 29px;
+    width: 40px;
+  margin-top: -210px;
+}
+.main-icons-search img{
+    height: 24px;
+    width: 30px;
+    margin-top: -210px;
+}
+
+.main-icons-chat img{
+    height: 24px;
+    width: 30px;
+    margin-top: -210px;
+}
+
+.main-icons-setting img{
+    height: 24px;
+    width: 30px;
+    margin-top: -210px;
+}
+
+.main-icons-bell img{
+    height: 24px;
+    width: 30px;
+    margin-top: -210px;
+}
+
+.main-icons-power img{
+    height: 24px;
+    width: 30px;
+    margin-top: -210px;
+    margin-right: 12px;
+}
+
+.main-icons-logo img {
+    width: 155px;
+    height: 45px;
+    margin-top: -275px;
+   margin-right: 150px;
+}
+
+.main-icons-option {
+    margin-top: -105px;
+}
+
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input).ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-sm:not(.ant-select-customize-input).ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 21px;
+}
+.main-icons-input{
+    margin-top: -107px;
+   
+}
+
+.ant-input {
+    background-color: #191919;
+    border: none;
+}
+.ant-input-affix-wrapper{
+    background-color: #191919;
+    border: none;
+}
+
+
+@media only screen and (max-width: 629px){
+.main-icons-nav ul{
+    display: none;
+}
+
+.main-icons-logo img{
+    display: none;
+}
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .main-icons-option{
+        display: none;
+    }
+
+   
+}
+
+
+
+
+@media only screen and (min-width: 740px){
+    .main-icons-logo img {
+        margin-right: 267px;
+    }
+
+}
+
+
+@media only screen and (min-width: 769px){
+
+.main-icons-profile img{
+    margin-right: -24px;
+}
+}
+
+@media only screen and (max-width: 1023px){
+.main-icons-input{
+ display: none;
+}
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    .main-icons-search{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

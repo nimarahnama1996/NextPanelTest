@@ -1,119 +1,84 @@
-import React,{useState} from 'react'
-import { Link } from 'react-router-dom'
-import {CloseOutlined,MenuOutlined,EyeOutlined} from '@ant-design/icons'
-import { Menu } from 'antd'
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import {  HumbergerMenuData} from './HumbergerMenuData';
+import HumMenu from './HumMenu';
+import { IconContext } from 'react-icons/lib';
 
+const Nav = styled.div`
+  background: #15171c;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+`;
 
+const NavIcon = styled(Link)`
+  margin-left: 2rem;
+  font-size: 14px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  @media only screen and (min-width: 630px){
+        display: none;
+   }
+   
+   
+`;
 
-import './HumbergerMenu.css'
+const SidebarNav = styled.nav`
+  background: #15171c;
+  width: 210px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+  transition: 350ms;
+  z-index: 10;
 
+  @media only screen and (min-width: 630px){
+    left: ${({ sidebar }) => (sidebar ? '-100%' : '0')};
+    background: linear-gradient(107.56deg, #151515 0%, #000000 100%);
+    margin-top:135px
+   }
 
+`;
 
-import overviewIcon from '../../img/overview.svg'
-import notificationIcon from '../../img/notification.svg'
-import lancherIcon from '../../img/lanchers.svg'
-import otaIcon from '../../img/ota.svg'
-import monitoringIcon from '../../img/monitoring.svg'
-
-
-
-
-const { SubMenu } = Menu;
-
-
+const SidebarWrap = styled.div`
+  width: 100%;
+`;
 
 const HumbergerMenu = () => {
+  const [sidebar, setSidebar] = useState(false);
 
-    
-    const [active,setActive] = useState(false)
-   
-    const showMenu = () => {
-        setActive(!active)
-    }
-
-  
+  const showSidebar = () => setSidebar(!sidebar);
 
   return (
-    <div>
+    <>
+      <IconContext.Provider value={{ color: '#fff' }}>
+        <Nav>
+          <NavIcon to='#'>
+            <FaIcons.FaBars onClick={showSidebar} />
+          </NavIcon>
+        </Nav>
+        <SidebarNav sidebar={sidebar}>
+          <SidebarWrap>
+            <NavIcon to='#'>
+              <AiIcons.AiOutlineClose onClick={showSidebar} />
+            </NavIcon>
+            {HumbergerMenuData.map((item, index) => {
+              return <HumMenu item={item} key={index} />;
+            })}
+          </SidebarWrap>
+        </SidebarNav>
+      </IconContext.Provider>
+    </>
+  );
+};
 
-     <div>
-        
-        <MenuOutlined  className='navbar-burger-menu'  onClick={showMenu}/>
-     </div>
-     <div className={active ? 'slider active' :  'slider'}>
-
-        <div>
-            <CloseOutlined  className='navbar-close-btn' onClick={showMenu}/>
-        </div>
-
-        <div>
-        <Menu
-        
-        style={{ 
-            width:'191px',
-            backgroundColor:'#171717',
-            color:'#ffffff',
-           marginTop:'30px'
-             }}
-        theme='dark'
-        
-      >
-        
-          <Menu.Item key="1" className='sidebar-overview-icon'>
-          <img src={overviewIcon} alt='overview'/>
-          <Link to='/'>Overview</Link>
-          </Menu.Item>
-
-          <Menu.Item key="2" className='sidebar-notification-icon'>
-          <img src={notificationIcon} alt='notification'/>
-          <Link to='/notifications'>
-                Notifications
-            </Link>
-          </Menu.Item>
-
-
-          
-          <SubMenu key="3" title="Contents"   icon={<EyeOutlined/>} >
-      
-        
-            <Menu.Item key="4">Filimo </Menu.Item>
-            <Menu.Item key="5">Filimo </Menu.Item>
-            <Menu.Item key="6">TSCOBOX</Menu.Item>  
-        </SubMenu>
-
-        <Menu.Item key="7" >
-           <img src={lancherIcon} alt='lancher'/>
-           <Link to='/launchers'>
-            Launchers
-            </Link>
-          </Menu.Item>
-
-          <Menu.Item key="8">
-          <img  src={otaIcon} alt='ota'/>
-          <Link to='/ota'>
-            OTA Management
-            </Link>
-          </Menu.Item>
-
-          <img  src={monitoringIcon} alt='monitoring'/>
-        <SubMenu key="9" title="Monitoring" >
-       
-          <Menu.Item key="10">Users</Menu.Item>
-          <Menu.Item key="11">Servers</Menu.Item>
-          <Menu.Item key="12">Products</Menu.Item>
-        </SubMenu>
-      </Menu>
-        </div>
-
-        <div className='sidebar-menu-text'></div>
-
-       
-        </div>
-
-    
-    </div>
-  )
-}
-
-
-export default HumbergerMenu
+export default HumbergerMenu;

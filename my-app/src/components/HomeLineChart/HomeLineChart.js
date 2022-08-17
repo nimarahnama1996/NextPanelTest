@@ -37,7 +37,7 @@ const data = {
         ticks:{
           color:"white",
           font:{
-            size:14
+            size:12
           }
         },
       },
@@ -46,7 +46,7 @@ const data = {
         ticks:{
           color:"white",
           font:{
-            size:14
+            size:10
           }
         }
       }
@@ -61,14 +61,14 @@ const HomeLineChart = () => {
      <div className='chart-home-title'>
     <h3>Requests <span>per second</span> </h3> 
    
-   <div >
-   <img src={arrowChart} alt='arrow' style={{marginLeft:'270px', marginTop:'-70px'}}/>
-    <img src={closeChart} alt='close' style={{marginLeft:'300px', marginTop:'-113px'}}/>
+   <div className='chart-icons-home' >
+   <img src={arrowChart} alt='arrow'  />
+    <img src={closeChart} alt='close'  />
    </div>
    </div>
       
-    <div className='home-line-chart'>
-    <Line data={data} options={options}  width={310} height={150}/>
+    <div className='home-line-chart' >
+    <Line data={data} options={options} />
     </div>
     </div>
   )

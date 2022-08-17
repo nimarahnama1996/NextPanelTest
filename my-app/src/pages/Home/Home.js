@@ -1,11 +1,11 @@
 import React from 'react'
-import HomeLineChart from '../../components/HomeLineChart/HomeLineChart'
 import MapOverview from '../../components/MapOverview/MapOverview'
-import OnlineUsers from '../../components/OnlineUsers/OnlineUsers'
+import OnlineUsersOverview from '../../components/OnlineUsersOverview/OnlineUsersOverview'
 import SummaryOverview from '../../components/SummaryOverview/SummaryOverview'
-
+import HomeLineChart from '../../components/HomeLineChart/HomeLineChart'
 
 import './Home.css'
+
 
 
 const Home = () => {
@@ -18,7 +18,7 @@ const Home = () => {
     </header>
 
     <div>
-      <OnlineUsers/>
+      <OnlineUsersOverview/>
     </div>
 
     <main>
@@ -26,14 +26,16 @@ const Home = () => {
     </main>
 
     <div>
-      <SummaryOverview/>
+        <SummaryOverview/>
     </div>
 
-    <div>
-      <HomeLineChart/>
-    </div>
+   <div>
+    <HomeLineChart/>
+   </div>
+    
 
     </div>
+    
 
     
   )

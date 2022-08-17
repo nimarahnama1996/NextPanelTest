@@ -3,7 +3,7 @@
     font-size: 18px;
     font-weight: 300; 
     margin-left: 19px;
-    margin-top: 20px;
+    margin-top: 30px;
    }
    
    .chart-home-title span{
@@ -13,5 +13,106 @@
    }
    
    .home-line-chart{
-    margin-left: 12px;
+   margin-left: 12px;
+   margin-top: 25px;
+   width: 330px;
+   height: 161px;
+   }
+
+ 
+   .chart-icons-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 80px;
+    margin-top: -26px;
+   }
+
+   
+   @media only screen and (min-width: 460px){
+    canvas{
+
+        width:400px !important;
+        height:185x !important;
+      
+      }
+   }
+
+   @media only screen and (min-width: 540px){
+    canvas{
+
+        width:480px !important;
+        height:185x !important;
+      
+      }
+   }
+
+
+   @media only screen and (min-width: 630px){
+    .chart-home-title h3{
+        margin-left: 230px;
+    }
+
+    .home-line-chart{
+        margin-left: 250px;
+       
+    }
+    canvas{
+
+        width:370px !important;
+        height:185x !important;
+      
+      }
+   }
+
+
+   @media only screen and (min-width: 740px){
+    canvas{
+
+        width: 480px !important;
+        height: 140px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 820px){
+    canvas{
+
+        width: 540px !important;
+        height: 140px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 970px){
+    canvas{
+
+        width: 640px !important;
+        height: 180px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 1024px){
+    canvas{
+
+        width: 720px !important;
+        height: 180px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 1224px){
+    canvas{
+
+        width: 920px !important;
+        height: 200px !important;
+        
+      
+      }
    }

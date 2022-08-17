@@ -29,7 +29,7 @@ const MoreIcons = () => {
        <ul>
 
        <div className='closed'>
-           <CloseOutlined style={{marginTop:'55px'}} className='close' onClick={showMenu}/>
+           <CloseOutlined style={{marginTop:'70px'}} className='close' onClick={showMenu}/>
        </div>
 
        <div className='navbar-icons'>
