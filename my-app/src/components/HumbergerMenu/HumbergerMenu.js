@@ -48,7 +48,7 @@ const SidebarNav = styled.nav`
     background: linear-gradient(107.56deg, #151515 0%, #000000 100%);
     margin-top:105px;
     overflow: auto;
-    height: 60vh;
+    height: 77vh;
    }
 
 `;
