@@ -39,7 +39,10 @@ const DropdownLink = styled(Link)`
     color:#fff;
     cursor: pointer;
     border-radius:3px;
+    font-size: 15px;
   }
+
+
 `;
 
 const HumMenu = ({ item }) => {

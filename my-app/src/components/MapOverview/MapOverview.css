@@ -64,3 +64,25 @@
     }
 }
 
+
+@media only screen and (min-width: 1280px){
+    .map-overview{
+        width: 640px;
+    }
+}
+
+
+@media only screen and (min-width: 1480px){
+    .map-overview{
+        width: 790px;
+    }
+}
+
+
+@media only screen and (min-width: 1600px){
+    .map-overview{
+        width: 800px;
+    }
+}
+
+
