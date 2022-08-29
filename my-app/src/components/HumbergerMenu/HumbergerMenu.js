@@ -61,7 +61,7 @@ const SidebarWrap = styled.div`
 const HumbergerMenu = () => {
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => setSidebar( !sidebar);
 
   return (
     <>
