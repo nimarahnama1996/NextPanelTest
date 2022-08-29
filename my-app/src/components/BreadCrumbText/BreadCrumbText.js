@@ -44,7 +44,7 @@ const BreadCrumbText = () => {
   
     return (
       <div >
-          {breadCrumbView()}
+           {breadCrumbView()}
       </div>
     )
   };

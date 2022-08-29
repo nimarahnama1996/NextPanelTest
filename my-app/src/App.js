@@ -9,8 +9,7 @@ import Notifications from './pages/Notifications/Notifications';
 import BreadCrumbText from './components/BreadCrumbText/BreadCrumbText';
 import PhoneNavbar from './components/PhoneNavbar/PhoneNavbar';
 import MainIcons from './components/MainIcons/MainIcons';
-import SidebarMenu from './components/SidebarMenu/SidebarMenu';
-
+import './App.css'
 
 const App = () => {
   return (
@@ -18,7 +17,7 @@ const App = () => {
 
    
    
-   <header>
+   <header className='main-app'>
    <PhoneNavbar/>
    <MainIcons/>
    </header>
@@ -34,7 +33,7 @@ const App = () => {
 
    
 
-   <main>
+   <main >
        <Routes>
         <Route index path='' element={<Home/>}/>
 

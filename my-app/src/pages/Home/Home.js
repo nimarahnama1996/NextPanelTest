@@ -32,8 +32,7 @@ const Home = () => {
    <div>
     <HomeLineChart/>
    </div>
-    
-
+  
     </div>
     
 

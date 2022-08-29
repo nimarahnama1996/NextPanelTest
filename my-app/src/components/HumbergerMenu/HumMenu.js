@@ -24,6 +24,18 @@ const SidebarLabel = styled.span`
   margin-left: 16px;
 `;
 
+
+const IconLabel = styled.span`
+    &:hover{
+      background:  #151515;
+      border-radius:50px;
+      font-size: 19px;
+      
+  }
+`;
+
+
+
 const DropdownLink = styled(Link)`
   background: #151515;
   height: 60px;
@@ -45,6 +57,10 @@ const DropdownLink = styled(Link)`
 
 `;
 
+
+
+
+
 const HumMenu = ({ item }) => {
   const [subnav, setSubnav] = useState(false);
 
@@ -54,7 +70,7 @@ const HumMenu = ({ item }) => {
     <>
       <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
         <div>
-          {item.icon}
+        <IconLabel>{item.icon}</IconLabel>
           <SidebarLabel>{item.title}</SidebarLabel>
         </div>
         <div>
@@ -69,7 +85,12 @@ const HumMenu = ({ item }) => {
         item.subNav.map((item, index) => {
           return (
             <DropdownLink to={item.path} key={index}>
-              {item.icon}
+        
+      
+            <IconLabel>{item.icon}</IconLabel>
+    
+           
+              
               <SidebarLabel>{item.title}</SidebarLabel>
             </DropdownLink>
           );

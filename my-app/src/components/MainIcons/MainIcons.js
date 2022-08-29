@@ -23,8 +23,6 @@ const { Search } = Input;
 
 
 const MainIcons = () => {
-
-  
  
 
 
@@ -38,7 +36,7 @@ const MainIcons = () => {
     <ul >
         <li className='main-icons-input'><Input size="middle" placeholder='Search Dashboard' prefix={<SearchOutlined style={{color:'#F4F4F5'}}/>} /></li>
         <li className='main-icons-profile'><img src={Profile} alt='profile'/></li>
-        <li className='main-icons-option'><Select size='small' defaultValue="admin@nxt.services"><Option value="admin" >admin@nxt.services</Option></Select></li>
+        <li className='main-icons-option'><select> <option value='admin'>admin@nxt.services</option> </select></li>
         <li className='main-icons-search'><img src={SearchIcon} alt='search'/></li>
         <li className='main-icons-chat'><img src={Chat} alt='chat'/></li>
         <li className='main-icons-setting'><img src={Setting} alt='setting'/></li>

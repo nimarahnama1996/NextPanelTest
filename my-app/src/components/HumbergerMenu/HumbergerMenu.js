@@ -45,10 +45,11 @@ const SidebarNav = styled.nav`
 
   @media only screen and (min-width: 630px){
     left: ${({ sidebar }) => (sidebar ? '-100%' : '0')};
-    background: linear-gradient(107.56deg, #151515 0%, #000000 100%);
-    margin-top:105px;
+    background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+    margin-top:192px;
     overflow: auto;
-    height: 77vh;
+    height: 85vh;
+    
    }
 
 `;

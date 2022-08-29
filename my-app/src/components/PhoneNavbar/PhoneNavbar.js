@@ -10,8 +10,8 @@ import './PhoneNavbar.css'
 import logo from '../../img/logo.svg'
 import MoreIcons from '../MoreIcons/MoreIcons'
 import HumbergerMenu from '../HumbergerMenu/HumbergerMenu'
-import Navbar from '../Navbar/Navbar'
-import SidebarMenu from '../SidebarMenu/SidebarMenu'
+
+
 
 const PhoneNavbar = () => {
   return (
@@ -21,8 +21,6 @@ const PhoneNavbar = () => {
 
             <ul className='navbar-nav-left'>
          <HumbergerMenu/>
-        
-       
             </ul>
 
             <div className='navbar-brand'>
