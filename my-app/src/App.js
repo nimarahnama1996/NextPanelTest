@@ -29,13 +29,17 @@ const App = () => {
     <BreadCrumbText/>
    </div>
 
+   <div>
+    <Home/>
+   </div>
+
 
 
    
 
    <main >
        <Routes>
-        <Route index path='' element={<Home/>}/>
+       
 
         <Route path='notifications' element={<Notifications/>}/>
       </Routes>
