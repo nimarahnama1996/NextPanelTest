@@ -4,11 +4,13 @@ import React from 'react'
 import './SummaryOverview.css'
 
 
+
 import settingSummary from '../../img/settting.svg'
 import refreshSummary from '../../img/refresh.svg'
 import closeSummary from '../../img/close.svg'
 import locationSummary from '../../img/location2.svg'
 import settingBlueSummary from '../../img/setting2.svg'
+
 
 
 const SummaryOverview = () => {
@@ -21,9 +23,9 @@ const SummaryOverview = () => {
 
 
       <div className='summary-overview-icons'>
-      <img src={settingSummary}  alt='setting' style={{marginRight:'10px'}}/>
-        <img src={refreshSummary} alt='refresh' style={{marginRight:'10px'}}/>
-        <img src={closeSummary} alt='close' style={{marginRight:'10px'}}/>
+      <img src={settingSummary}  alt='setting' />
+        <img src={refreshSummary} alt='refresh' />
+        <img src={closeSummary} alt='close' />
       </div>
 
         </div>

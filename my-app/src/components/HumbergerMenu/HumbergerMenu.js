@@ -33,7 +33,7 @@ const NavIcon = styled(Link)`
 const SidebarNav = styled.nav`
   background: #15171c;
   width: 210px;
-  height: 100vh;
+  height: 1000vh;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -41,6 +41,7 @@ const SidebarNav = styled.nav`
   left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
   transition: 350ms;
   z-index: 10;
+  height: 84vh;
   overflow: scroll;
 
   @media only screen and (min-width: 630px){
@@ -48,7 +49,16 @@ const SidebarNav = styled.nav`
     background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
     margin-top:192px;
     overflow: auto;
-    height: 85vh;
+    height: 76vh;
+    overflow: scroll;
+   }
+
+   @media only screen and (min-width: 1024px){
+    left: ${({ sidebar }) => (sidebar ? '-100%' : '0')};
+    background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+    margin-top:192px;
+    overflow: auto;
+    height: 100vh;
     
    }
 
@@ -61,7 +71,7 @@ const SidebarWrap = styled.div`
 const HumbergerMenu = () => {
   const [sidebar, setSidebar] = useState(false);
 
-  const showSidebar = () => setSidebar( !sidebar);
+  const showSidebar = () => setSidebar(!sidebar);
 
   return (
     <>

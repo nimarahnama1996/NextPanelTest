@@ -6,7 +6,7 @@
     height: 100vh;
     right: -100%;
     bottom: 0% ;
-    transition: 1s linear;
+    transition: 350ms;
     margin-top: 70px;
     z-index: 10;
    
@@ -16,7 +16,7 @@
 
 .sliders.actives{
     right:0;
-    transition: 1s linear;
+    transition: 200ms;
     margin-top: -47px;
     background: #151515;
     
