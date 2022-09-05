@@ -48,6 +48,8 @@ const HomeLineChart = () => {
               borderColor:'#2477FF',
              tension: 0.5,
               borderWidth: 2,
+            
+             
             },
             
           ],
@@ -57,12 +59,14 @@ const HomeLineChart = () => {
         options={{
           plugins:{legend:{display:false}},
           maintainAspectRatio: false,
+         
           scales: {
       y:{
         ticks:{
           color:"white",
           font:{
-            size:14
+            size:14,
+           
           }
         },
       },
@@ -70,7 +74,9 @@ const HomeLineChart = () => {
         ticks:{
           color:"white",
           font:{
-            size:14
+            size:14,
+           
+    
           }
         }
       }
@@ -79,6 +85,8 @@ const HomeLineChart = () => {
           
         }}
       />
+
+      <div></div>
   </div>
   )
 }
