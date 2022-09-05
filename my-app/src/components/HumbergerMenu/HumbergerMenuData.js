@@ -1,8 +1,8 @@
 import React from 'react';
-import * as AiIcons from 'react-icons/ai';
+
+
 import * as RiIcons from 'react-icons/ri';
-import * as GrIcons from 'react-icons/gr';
-import * as BsIcons from 'react-icons/bs';
+
 
 
 import lanchers from '../../img/lanchers.svg'
@@ -11,6 +11,7 @@ import notification from '../../img/notification.svg'
 import contents from '../../img/contents.svg'
 import ota from '../../img/ota.svg'
 import monitoring from '../../img/monitoring.svg'
+
 
 
 export const HumbergerMenuData = [

@@ -120,3 +120,195 @@
 
 
 
+   /*
+
+     <div>
+     
+     <div className='chart-home-title'>
+    <h3>Requests <span>per second</span> </h3> 
+   
+   <div className='chart-icons-home' >
+   <img src={arrowChart} alt='arrow'  />
+    <img src={closeChart} alt='close'  />
+   </div>
+   </div>
+      
+    <div className='home-line-chart' >
+    <Line
+       data={{
+        labels: ['22:30:30','22:30:32','22:30:34','22:30:36','22:30:38','22:30:40','22:30:42','22:30:44','22:30:46','22:30:48','22:30:50','22:30:52',],
+          datasets: [
+            {
+              label: 'Iphone sales',
+              data: [150,190,200,160,210,180,230,200,160,200,170,190,170],
+              fill: false,
+             borderColor:'#2477FF',
+             tension: 0.5,
+              borderWidth: 2,
+            },
+            
+          ],
+        }}
+        height={400}
+        width={600}
+        options={{
+          plugins:{legend:{display:false}},
+          maintainAspectRatio: false,
+          scales: {
+      y:{
+        ticks:{
+          color:"white",
+          font:{
+            size:14
+          }
+        },
+      },
+      
+      x:{
+        ticks:{
+          color:"white",
+          font:{
+            size:10
+          }
+        }
+      }
+    },
+          
+          
+        }}
+     
+      />
+     
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    .chart-home-title h3{
+    color: white;
+    font-size: 18px;
+    font-weight: 300; 
+    margin-left: 19px;
+    margin-top: 30px;
+   }
+   
+   .chart-home-title span{
+       color: white;
+       font-size: 18px;
+       font-weight: 700;
+   }
+   
+   .home-line-chart{
+   margin-left: 12px;
+   margin-top: 25px;
+   width: 330px;
+   height: 161px;
+   }
+
+ 
+   .chart-icons-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 80px;
+    margin-top: -26px;
+   }
+
+   
+   @media only screen and (min-width: 460px){
+    canvas{
+
+        width:400px !important;
+        height:185x !important;
+      
+      }
+   }
+
+   @media only screen and (min-width: 540px){
+    canvas{
+
+        width:480px !important;
+        height:185x !important;
+      
+      }
+   }
+
+
+   @media only screen and (min-width: 630px){
+    .chart-home-title h3{
+        margin-left: 230px;
+    }
+
+    .home-line-chart{
+        margin-left: 250px;
+       
+    }
+    canvas{
+
+        width:370px !important;
+        height:185x !important;
+      
+      }
+   }
+
+
+   @media only screen and (min-width: 740px){
+    canvas{
+
+        width: 480px !important;
+        height: 140px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 820px){
+    canvas{
+
+        width: 540px !important;
+        height: 140px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 970px){
+    canvas{
+
+        width: 640px !important;
+        height: 180px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 1024px){
+    canvas{
+
+        width: 720px !important;
+        height: 180px !important;
+        
+      
+      }
+   }
+
+   @media only screen and (min-width: 1224px){
+    canvas{
+
+        width: 1100px !important;
+        height: 200px !important;
+        
+      
+      }
+   }
+
+
+
+   */
+

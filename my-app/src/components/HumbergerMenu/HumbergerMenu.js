@@ -59,7 +59,7 @@ const SidebarNav = styled.nav`
     margin-top:192px;
     overflow: auto;
     height: 100vh;
-    
+   
    }
 
 `;

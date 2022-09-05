@@ -31,17 +31,16 @@ const App = () => {
     <BreadCrumbText/>
    </div>
 
-   <div>
-    <Home/>
-   </div>
+   
 
-
+  <div>
+    <Home/> 
+  </div>
 
    
 
    <main >
        <Routes>
-
         <Route path='notifications' element={<Notifications/>}/>
       </Routes>
    </main>
