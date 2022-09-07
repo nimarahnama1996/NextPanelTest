@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+import './HumbergerMenu.css'
 
 const SidebarLink = styled(Link)`
   display: flex;
@@ -12,6 +13,7 @@ const SidebarLink = styled(Link)`
   height: 60px;
   text-decoration: none;
   font-size: 12px;
+  
   &:hover {
     background: #7C7B7B;
     color:#fff;
@@ -29,6 +31,8 @@ const IconLabel = styled.span`
     &:hover{
       background:  #151515;
       border-radius:50px;
+      width:300px;
+      height:100px;
       font-size: 19px;
       
   }
@@ -68,6 +72,7 @@ const HumMenu = ({ item }) => {
 
   return (
     <>
+    <div className='all-item'>
       <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
         <div>
         <IconLabel>{item.icon}</IconLabel>
@@ -81,6 +86,7 @@ const HumMenu = ({ item }) => {
             : null}
         </div>
       </SidebarLink>
+      </div>
       {subnav &&
         item.subNav.map((item, index) => {
           return (

@@ -1,4 +1,4 @@
-import React, {  MutableRefObject, useLayoutEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import * as FaIcons from 'react-icons/fa';
@@ -41,15 +41,16 @@ const SidebarNav = styled.nav`
   left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
   transition: 350ms;
   z-index: 10;
-  height: 84vh;
+  height: 100vh;
   overflow: scroll;
 
   @media only screen and (min-width: 630px){
     left: ${({ sidebar }) => (sidebar ? '-100%' : '0')};
     background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+    position: fixed;
     margin-top:192px;
     overflow: auto;
-    height: 76vh;
+    height: 100vh;
     overflow: scroll;
    }
 
