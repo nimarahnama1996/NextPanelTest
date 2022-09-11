@@ -14,6 +14,8 @@
 
 }
 
+
+
 .summary-overview-icons {
     display: flex;
     flex-direction: row;
@@ -22,6 +24,7 @@
     margin-top: 11px;
     margin-left: 105px;
     height: 10px;
+    
 }
 
 .summary-overview-user h3{

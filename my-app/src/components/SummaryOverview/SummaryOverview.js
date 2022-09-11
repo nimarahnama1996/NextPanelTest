@@ -21,11 +21,12 @@ const SummaryOverview = () => {
 
         <h1>Summary</h1>
 
-
+       
       <div className='summary-overview-icons'>
-      <img src={settingSummary}  alt='setting' />
-        <img src={refreshSummary} alt='refresh' />
-        <img src={closeSummary} alt='close' />
+       <img src={settingSummary} alt='setting' /> 
+        <img src={refreshSummary} alt='refresh'/>
+        <img src={closeSummary} alt='close'/>
+     
       </div>
 
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import * as RiIcons from 'react-icons/ri';
-
+import {AiOutlineDown,AiOutlineUp}  from "react-icons/ai";
 
 
 import lanchers from '../../img/lanchers.svg'
@@ -34,16 +34,16 @@ export const HumbergerMenuData = [
     path: '/contents',
     icon: <img src={contents} alt='contents'/>,
 
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
+    iconClosed: <AiOutlineDown />,
+    iconOpened: <AiOutlineUp />,
 
     subNav: [
         {
-          title: 'Filimo1',
+          title: 'Filimo(Selection) ',
           path: '/contents/Filimo1',
         },
         {
-          title: 'Filimo2',
+          title: 'Filimo(Statistic)',
           path: '/contents/Filimo2',
        
         },
@@ -74,8 +74,8 @@ export const HumbergerMenuData = [
     path: '/monitoring',
     icon: <img src={monitoring} alt='monitoring'/>,
 
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
+    iconClosed: <AiOutlineDown />,
+    iconOpened: <AiOutlineUp />,
 
     subNav: [
       {

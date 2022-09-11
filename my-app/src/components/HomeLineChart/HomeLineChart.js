@@ -32,7 +32,7 @@ const HomeLineChart = () => {
     <h3>Requests <span>per second</span> </h3> 
    
    <div className='chart-icons-home' >
-   <img src={arrowChart} alt='arrow'  />
+   <img src={arrowChart} alt='arrow' />
     <img src={closeChart} alt='close'  />
    </div>
    </div>

@@ -41,7 +41,7 @@ const MainIcons = () => {
         <li className='main-icons-chat'><img src={Chat} alt='chat'/></li>
         <li className='main-icons-setting'><img src={Setting} alt='setting'/></li>
         <li className='main-icons-bell'><img src={Bell} alt='bell'/></li>
-        <li className='main-icons-power'><img src={Power} alt='power' style={{color:'white'}}/></li>
+        <li className='main-icons-power'><img src={Power} alt='power' /></li>
         
     </ul>
     </div>
