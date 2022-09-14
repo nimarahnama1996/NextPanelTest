@@ -24,7 +24,7 @@ const BreadCrumbText = () => {
               You Are Here {'>'} Next
               </Breadcrumb.Item>
             ) : (
-              <Breadcrumb.Item >You Are Here {'>'} Next {'>'} TSCOBOX  {'/'} Overview</Breadcrumb.Item>
+              <Breadcrumb.Item >You Are Here {'>'} Next {'>'} TSCOBOX  {'>'} Overview</Breadcrumb.Item>
             )}
             {pathnames.map((name, index) => {
               const routeTo = `/${pathnames.slice(0, index + 1).join("/")}`;

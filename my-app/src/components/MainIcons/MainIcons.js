@@ -1,6 +1,6 @@
 import React from 'react'
 import { Select,Input, } from 'antd';
-import{SearchOutlined } from '@ant-design/icons'
+import{BiSearch} from 'react-icons/bi'
 
 import './MainIcons.css'
 
@@ -34,7 +34,7 @@ const MainIcons = () => {
     <div className='main-icons-nav'>
    
     <ul >
-        <li className='main-icons-input'><Input size="middle" placeholder='Search Dashboard' prefix={<SearchOutlined style={{color:'#F4F4F5'}}/>} /></li>
+        <li className='main-icons-input'><Input size="middle" placeholder='Search Dashboard' prefix={<BiSearch style={{color:'808080'}}/>} /></li>
         <li className='main-icons-profile'><img src={Profile} alt='profile'/></li>
         <li className='main-icons-option'><select> <option value='admin'>admin@nxt.services</option> </select></li>
         <li className='main-icons-search'><img src={SearchIcon} alt='search'/></li>

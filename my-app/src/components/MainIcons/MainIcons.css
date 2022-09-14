@@ -4,6 +4,8 @@
    justify-content: right;
     gap: 21px;
     cursor: pointer;
+    list-style: none;
+    margin-right: 10px;
 }
 
 
@@ -65,8 +67,8 @@
 }
 
 .main-icons-option select{
-    background-color: #000000;
-    color: white;
+    background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+    color: gray;
     border: none;
     cursor: pointer;
     border: none;
@@ -81,11 +83,18 @@
 
 .ant-input {
     background-color: #191919;
-    border: none;
+    border: none;   
 }
+
+.ant-input::placeholder {
+  color: #888888;
+  }
+
+
 .ant-input-affix-wrapper{
     background-color: #191919;
     border: none;
+   
 }
 
 

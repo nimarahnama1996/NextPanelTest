@@ -1,17 +1,18 @@
 
-
 .home-overview-header h1{
-    color: white; 
+    color: #FDFDFD; 
     font-size: 35px;
-    font-weight: 400;
+    font-weight: 300;
     margin-left: 14px;  
+    
    }
    
    .home-overview-header p{
-       color: white; 
-       font-size: 19px;
+       color: #FDFDFD;
+       font-size: 20px;
        margin-left: 14px;
-       margin-top: -29px;  
+       margin-top: -29px; 
+       font-weight: 300; 
       }
 
 
@@ -23,7 +24,7 @@
 
 
         .home-overview-header p{
-            margin-left: 378px; 
+            margin-left: 390px; 
             margin-top: -57px;
         }
       }

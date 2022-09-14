@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-import * as RiIcons from 'react-icons/ri';
-import {AiOutlineDown,AiOutlineUp}  from "react-icons/ai";
+
+import {IoIosArrowDown,IoIosArrowUp}  from "react-icons/io";
 
 
 import lanchers from '../../img/lanchers.svg'
 import overview from '../../img/overview.svg'
-import notification from '../../img/notification.svg'
+import notification from '../../img/menu-notification-icon.svg'
 import contents from '../../img/contents.svg'
 import ota from '../../img/ota.svg'
 import monitoring from '../../img/monitoring.svg'
@@ -22,6 +22,7 @@ export const HumbergerMenuData = [
    
   },
 
+
   {
     title: 'Notifications',
     path: '/notifications',
@@ -34,8 +35,8 @@ export const HumbergerMenuData = [
     path: '/contents',
     icon: <img src={contents} alt='contents'/>,
 
-    iconClosed: <AiOutlineDown />,
-    iconOpened: <AiOutlineUp />,
+    iconClosed: <IoIosArrowDown   />,
+    iconOpened: <IoIosArrowUp />,
 
     subNav: [
         {
@@ -74,8 +75,8 @@ export const HumbergerMenuData = [
     path: '/monitoring',
     icon: <img src={monitoring} alt='monitoring'/>,
 
-    iconClosed: <AiOutlineDown />,
-    iconOpened: <AiOutlineUp />,
+    iconClosed: <IoIosArrowDown />,
+    iconOpened: <IoIosArrowUp />,
 
     subNav: [
       {

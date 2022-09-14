@@ -33,7 +33,7 @@ const App = () => {
 
    
 
-  <div>
+  <div >
     <Home/> 
   </div>
 

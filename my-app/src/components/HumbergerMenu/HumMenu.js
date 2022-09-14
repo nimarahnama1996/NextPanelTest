@@ -13,6 +13,8 @@ const SidebarLink = styled(Link)`
   height: 60px;
   text-decoration: none;
   font-size: 12px;
+  margin-left:8px;
+  
   
   &:hover {
     background: #7C7B7B;
@@ -20,22 +22,32 @@ const SidebarLink = styled(Link)`
     cursor: pointer;
     border-radius:3px;
   }
+
+  &:hover{
+      img{
+      background: #ABABAB;
+      border-radius:30px;
+      padding:12px 6px;
+      margin-left:-10px
+      
+    }
+      
+  }
+
+ 
+
+ 
 `;
 
 const SidebarLabel = styled.span`
   margin-left: 16px;
+  
 `;
 
 
 const IconLabel = styled.span`
-    &:hover{
-      background:  #151515;
-      border-radius:50px;
-      width:300px;
-      height:100px;
-      font-size: 19px;
-      
-  }
+    
+    
 `;
 
 
@@ -57,6 +69,11 @@ const DropdownLink = styled(Link)`
     border-radius:3px;
     font-size: 15px;
   }
+
+  
+  
+
+ 
 
 
 `;
@@ -92,10 +109,7 @@ const HumMenu = ({ item }) => {
           return (
             <DropdownLink to={item.path} key={index}>
         
-      
-            <IconLabel>{item.icon}</IconLabel>
-    
-           
+            <IconLabel >{item.icon}</IconLabel>
               
               <SidebarLabel>{item.title}</SidebarLabel>
             </DropdownLink>

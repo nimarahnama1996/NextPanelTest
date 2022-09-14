@@ -10,8 +10,7 @@
 .summary-overview-title h1{
  color: white;
  font-size: 18px;
- font-weight: 600;
-
+ font-weight: 600
 }
 
 
@@ -29,14 +28,19 @@
 
 .summary-overview-user h3{
     color: white;
-    width: 700;
+    font-weight: 300;
     font-size: 14px;
     margin-left:17px;
 }
 
+.summary-overview-user span{
+    font-weight: 700;
+    font-size: 14px;
+}
+
 .summary-overview-user p {
     color: white;
-    width: 700;
+    font-weight: 300;
     font-size: 14px;
     margin-left:43px;
     margin-top: -21px;
@@ -45,15 +49,20 @@
 
 .summary-overview-active h3{
     color: white;
-    width: 700;
+    font-weight: 300;
     font-size: 14px;
     margin-left:17px;
+}
+
+.summary-overview-active span{
+    font-weight: 700;
+    font-size: 14px;
 }
 
 
 .summary-overview-active p {
     color: white;
-    width: 300;
+    font-weight: 300;
     font-size: 14px;
     margin-left:43px;
     margin-top: -21px;

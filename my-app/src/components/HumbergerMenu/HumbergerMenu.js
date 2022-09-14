@@ -8,7 +8,7 @@ import HumMenu from './HumMenu';
 import { IconContext } from 'react-icons/lib';
 
 const Nav = styled.div`
-  background: #15171c;
+ 
   height: 80px;
   display: flex;
   justify-content: flex-start;
@@ -43,10 +43,11 @@ const SidebarNav = styled.nav`
   z-index: 10;
   height: 100vh;
   overflow: scroll;
+ 
 
   @media only screen and (min-width: 630px){
     left: ${({ sidebar }) => (sidebar ? '-100%' : '0')};
-    background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+    
     position: fixed;
     margin-top:192px;
     overflow: auto;
@@ -56,7 +57,7 @@ const SidebarNav = styled.nav`
 
    @media only screen and (min-width: 1024px){
     left: ${({ sidebar }) => (sidebar ? '-100%' : '0')};
-    background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+   
     margin-top:192px;
     overflow: auto;
     height: 100vh;
@@ -80,11 +81,14 @@ const HumbergerMenu = () => {
     <>
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav>
+       
           <NavIcon to='#'>
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
         </Nav>
+        
         <SidebarNav sidebar={sidebar}>
+       
           <SidebarWrap>
             <NavIcon to='#'>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
@@ -93,6 +97,8 @@ const HumbergerMenu = () => {
               return <HumMenu item={item} key={index} />;
             })}
           </SidebarWrap>
+          
+       
         </SidebarNav>
       </IconContext.Provider>
     </>
