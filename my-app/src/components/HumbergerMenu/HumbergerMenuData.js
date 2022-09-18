@@ -97,3 +97,70 @@ export const HumbergerMenuData = [
     ]
   },
 ];
+
+
+
+
+/*
+
+
+ <div className="links">
+            <ul>
+              <li
+                className={currentLink === 1 ? "active" : "none"}
+                onClick={() => setCurrentLink(1)}
+              >
+                <a href="#">
+                <img src={overview} alt="overview"/>
+                  <span> Overview</span>
+                </a>
+              </li>
+              <li
+                className={currentLink === 2 ? "active" : "none"}
+                onClick={() => setCurrentLink(2)}
+              >
+                <a href="#">
+                 <img src={notification} alt='notification'/>
+                  <span> Notification</span>
+                </a>
+              </li>
+              <li
+                className={currentLink === 3 ? "active" : "none"}
+                onClick={() => setCurrentLink(3)}
+              >
+                <a href="#">
+                <img src={contents} alt='contents'/>
+                  <span> Contents</span>
+                </a>
+              </li>
+              <li
+                className={currentLink === 4 ? "active" : "none"}
+                onClick={() => setCurrentLink(4)}
+              >
+                <a href="#">
+                <img src={lanchers} alt='launchers'/>
+                  <span>Launchers</span>
+                </a>
+              </li>
+              <li
+                className={currentLink === 5 ? "active" : "none"}
+                onClick={() => setCurrentLink(5)}
+              >
+                <a href="#">
+                <img src={ota} alt='ota'/>
+                  <span>OTA Management</span>
+                </a>
+              </li>
+              <li
+                className={currentLink === 6 ? "active" : "none"}
+                onClick={() => setCurrentLink(6)}
+              >
+                <a href="#">
+                <img src={monitoring} alt='monitoring'/>
+                  <span>Monitoring</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+*/
