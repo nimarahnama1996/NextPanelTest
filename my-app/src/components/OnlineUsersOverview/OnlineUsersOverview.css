@@ -1,3 +1,9 @@
+.online-user-h4{  
+    width: 90px;
+    padding-top:30px ;
+}
+
+
 .online-user-home h4{
     color: white;
     font-size: 14px;
@@ -28,4 +34,37 @@
         .online-user-home p{
             margin-left: 260px;
         }
+      }
+
+      @media only screen and (min-width: 740px){
+        .online-user-home h4{
+            margin-left: 40px;
+            margin-top: 50px;
+        }
+
+        .online-user-home p{
+            margin-left: 40px;
+        }
+      }
+
+
+
+
+      @media only screen and (min-width: 1224px){
+        .online-user-home h4{
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+
+        .online-user-h4{
+         
+            width: 90px;
+            padding-top:30px ;
+        }
+
+        .online-user-home p{
+            margin-left: 50px;
+        }
+
+       
       }

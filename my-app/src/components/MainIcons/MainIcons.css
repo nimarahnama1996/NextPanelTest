@@ -67,7 +67,7 @@
 }
 
 .main-icons-option select{
-    background: linear-gradient(107.56deg,  #000000, #151515 0% 100%);
+    background-color: #070707;
     color: gray;
     border: none;
     cursor: pointer;
@@ -78,21 +78,25 @@
 }
 .main-icons-input{
     margin-top: -107px;
-   
 }
 
 .ant-input {
-    background-color: #191919;
+    background-color: #242424;
     border: none;   
+    
 }
 
 .ant-input::placeholder {
   color: #888888;
+  font-size: 14px;
+  background-color: #242424;
+
+
   }
 
 
 .ant-input-affix-wrapper{
-    background-color: #191919;
+    background-color:#242424 ;
     border: none;
    
 }

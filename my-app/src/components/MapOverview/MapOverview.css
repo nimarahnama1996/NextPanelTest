@@ -35,9 +35,9 @@
 
 @media only screen and (min-width: 740px){
     .map-overview{
-        width: 500px;
+        width: 450px;
         height: 230px;
-        margin-left:210px;
+        margin-left:40px;
        
     }
 }
@@ -57,17 +57,18 @@
 
 @media only screen and (min-width: 1024px){
     .map-overview{
-        width: 500px;
+        width: 400px;
         height: 230px;
-        margin-left:210px;
+        margin-left:55px;
        
     }
 }
 
 
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1224px){
     .map-overview{
-        width: 640px;
+        width: 580px;
+        margin-left: 30px;
     }
 }
 

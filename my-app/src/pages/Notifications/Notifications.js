@@ -370,3 +370,140 @@ export default HumMenu;
 
 
 */
+
+
+
+
+
+/*
+
+
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
+
+
+import './HumMenu.css'
+
+
+
+
+
+const HumMenu = ({ item }) => {
+  const [subnav, setSubnav] = useState(false);
+  
+
+  
+
+  const showSubnav = () => setSubnav(!subnav);
+
+
+  function onLinkClick(e) {
+    e.preventDefault();
+    // further processing happens here
+ }
+
+
+  return (
+    <>
+    
+    <div className='Sidebar' >
+      <ul className='SidebarList'>
+      
+           
+                <li 
+                 className='row' 
+                  
+                 onClick={() => window.location.pathname = item.path}
+                 id={window.location.pathname === item.path ? 'active' : ''}
+                 >
+                    <div 
+                    
+                     className='icon' 
+                     id={window.location.pathname === item.path ? 'icon-active' : ''}
+                     >
+                     {item.icon}
+                     </div>
+
+                    <div id='title'>{item.title}</div>
+                </li>
+           
+       
+       
+      </ul>
+
+      <div>
+          {item.subNav && subnav
+            ? item.iconOpened
+            : item.subNav
+            ? item.iconClosed
+            : null}
+        </div>
+      </div>
+      
+      {subnav &&  
+        item.subNav.map((item, index) => {
+          return (
+            <DropdownLink to={item.path} key={index}>
+        
+            <IconLabel >{item.icon}</IconLabel>
+              
+              <SidebarLabel>{item.title}</SidebarLabel>
+            </DropdownLink>
+          );
+        })}
+    </>
+  );
+};
+
+
+
+
+
+
+
+const SidebarLabel = styled.span`
+  margin-left: 16px;
+  
+`;
+
+
+const IconLabel = styled.span`
+    
+    
+`;
+
+
+
+const DropdownLink = styled(Link)`
+  background: #151515;
+  height: 60px;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 12px;
+  
+  
+  &:hover {
+    background: #7C7B7B;
+    color:#fff;
+    cursor: pointer;
+    border-radius:3px;
+    font-size: 15px;
+  }
+
+  
+  
+
+ 
+
+
+`;
+
+export default HumMenu;
+
+
+*/

@@ -11,6 +11,7 @@ import PhoneNavbar from './components/PhoneNavbar/PhoneNavbar';
 import MainIcons from './components/MainIcons/MainIcons';
 import './App.css'
 
+
 const App = () => {
   return (
     <div>
@@ -31,7 +32,8 @@ const App = () => {
     <BreadCrumbText/>
    </div>
 
-   
+
+  
 
   <div >
     <Home/> 

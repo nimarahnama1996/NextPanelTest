@@ -1,0 +1,55 @@
+
+
+.SidebarList{
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+
+.SidebarList .row{
+ 
+  height: 50px;
+ 
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.SidebarList .row:hover{
+    color:#fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.SidebarList  #active{
+
+}
+
+ #icon-active{
+  background: #ABABAB;
+  padding: 10px 10px;
+  border-radius: 50%;
+  
+}
+
+
+.row .icon{
+  flex: 2%;
+  display: grid;
+  place-items: center;
+}
+
+
+.row #title{
+  flex: 90%;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+

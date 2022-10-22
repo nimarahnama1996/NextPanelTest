@@ -124,5 +124,3 @@ const HumMenu = ({ item }) => {
 
 export default HumMenu;
 
-
-

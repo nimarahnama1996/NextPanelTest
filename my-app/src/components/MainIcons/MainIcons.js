@@ -34,7 +34,7 @@ const MainIcons = () => {
     <div className='main-icons-nav'>
    
     <ul >
-        <li className='main-icons-input'><Input size="middle" placeholder='Search Dashboard' prefix={<BiSearch style={{color:'808080'}}/>} /></li>
+        <li className='main-icons-input'><Input size="middle" placeholder='Search...' prefix={<BiSearch style={{color:'808080'}}/>} /></li>
         <li className='main-icons-profile'><img src={Profile} alt='profile'/></li>
         <li className='main-icons-option'><select> <option value='admin'>admin@nxt.services</option> </select></li>
         <li className='main-icons-search'><img src={SearchIcon} alt='search'/></li>

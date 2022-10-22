@@ -16,6 +16,7 @@ import monitoring from '../../img/monitoring.svg'
 
 export const HumbergerMenuData = [
   {
+    id:1,
     title: 'Overview',
     path: '/',
     icon: <img src={overview} alt='overview'/>
@@ -24,6 +25,7 @@ export const HumbergerMenuData = [
 
 
   {
+    id:2,
     title: 'Notifications',
     path: '/notifications',
     icon: <img src={notification} alt='notification'/>,
@@ -31,6 +33,7 @@ export const HumbergerMenuData = [
   },
 
   {
+    id:3,
     title: 'Contents',
     path: '/contents',
     icon: <img src={contents} alt='contents'/>,
@@ -58,12 +61,14 @@ export const HumbergerMenuData = [
 
 
   {
+    id:4,
     title: 'Launchers',
     path: '/launchers',
     icon: <img src={lanchers} alt='lanchers'/>
   },
 
   {
+    id:5,
     title: 'OTA Management',
     path: '/ota',
     icon: <img src={ota} alt='ota'/>,
@@ -71,6 +76,7 @@ export const HumbergerMenuData = [
 
   
   {
+    id:6,
     title: 'Monitoring',
     path: '/monitoring',
     icon: <img src={monitoring} alt='monitoring'/>,

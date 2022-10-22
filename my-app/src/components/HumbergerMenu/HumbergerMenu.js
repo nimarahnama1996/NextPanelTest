@@ -23,6 +23,7 @@ const NavIcon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  
   @media only screen and (min-width: 630px){
         display: none;
    }
@@ -31,7 +32,7 @@ const NavIcon = styled(Link)`
 `;
 
 const SidebarNav = styled.nav`
-  background: #15171c;
+ background: linear-gradient(180deg,  #141414, #000000 100% 100%);
   width: 210px;
   height: 1000vh;
   display: flex;
@@ -43,6 +44,9 @@ const SidebarNav = styled.nav`
   z-index: 10;
   height: 100vh;
   overflow: scroll;
+  
+
+  
  
 
   @media only screen and (min-width: 630px){
@@ -53,6 +57,7 @@ const SidebarNav = styled.nav`
     overflow: auto;
     height: 100vh;
     overflow: scroll;
+   
    }
 
    @media only screen and (min-width: 1024px){
@@ -68,6 +73,7 @@ const SidebarNav = styled.nav`
 
 const SidebarWrap = styled.div`
   width: 100%;
+  
 `;
 
 const HumbergerMenu = () => {
@@ -79,7 +85,7 @@ const HumbergerMenu = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff' }}>
+      <IconContext.Provider value={{ color: '#fff' , }}>
         <Nav>
        
           <NavIcon to='#'>
@@ -93,11 +99,11 @@ const HumbergerMenu = () => {
             <NavIcon to='#'>
               <AiIcons.AiOutlineClose onClick={showSidebar} />
             </NavIcon>
-            {HumbergerMenuData.map((item, index) => {
+            {HumbergerMenuData.map((item,index) => {
               return <HumMenu item={item} key={index} />;
             })}
           </SidebarWrap>
-          
+         
        
         </SidebarNav>
       </IconContext.Provider>

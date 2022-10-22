@@ -94,12 +94,21 @@
    @media only screen and (min-width: 740px){
     canvas{
 
-        width: 480px !important;
-        height: 140px !important;
+        width: 450px !important;
+        height: 130px !important;
         
       
       }
+      .home-line-chart{
+        margin-left: 30px;
+      }
+
+      .chart-home-title h3{
+        margin-left: 37px;
+    }
+
    }
+
 
    @media only screen and (min-width: 820px){
     canvas{
@@ -135,10 +144,23 @@
     canvas{
 
         width: 850px !important;
-        height: 150px !important;
-        
+        height: 160px !important;
+
       
       }
+
+      .home-line-chart{
+        margin-left: 60px;
+      }
+
+      .chart-home-title h3{
+       
+        margin-left: 60px;
+        margin-top: 30px;
+       }
+       
+      
+       
    }
 
    @media only screen and (min-width: 1330px){
@@ -164,7 +186,7 @@
    @media only screen and (min-width: 1550px){
     canvas{
 
-        width: 1280px !important;
+        width: 1180px !important;
         height: 180px !important;
         
       
@@ -174,12 +196,46 @@
    @media only screen and (min-width: 1650px){
     canvas{
 
+        width: 1280px !important;
+        height: 180px !important;
+        
+      
+      }
+   }
+
+
+   @media only screen and (min-width: 1750px){
+    canvas{
+
+        width: 1300px !important;
+        height: 180px !important;
+        
+      
+      }
+   }
+
+   
+   @media only screen and (min-width: 1800px){
+    canvas{
+
         width: 1480px !important;
         height: 180px !important;
         
       
       }
    }
+
+    
+   @media only screen and (min-width: 1900px){
+    canvas{
+
+        width: 1520px !important;
+        height: 181px !important;
+        
+      
+      }
+   }
+
 
 
 

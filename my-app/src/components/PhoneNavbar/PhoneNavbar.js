@@ -20,7 +20,7 @@ const PhoneNavbar = () => {
         <div className='navbar-container'>
 
             <ul className='navbar-nav-left'>
-         <HumbergerMenu/>
+            <HumbergerMenu/>
             </ul>
 
             <div className='navbar-brand'>

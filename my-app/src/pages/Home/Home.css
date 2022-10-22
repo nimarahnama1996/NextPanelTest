@@ -1,4 +1,10 @@
 
+
+
+.testing{
+  background-color: #000;
+}
+
 .home-overview-header h1{
     color: #FDFDFD; 
     font-size: 35px;
@@ -28,3 +34,19 @@
             margin-top: -57px;
         }
       }
+
+
+      
+
+      @media only screen and (min-width: 740px){
+        .testing{
+            background-color: #000;
+            margin-left: 210px;
+            border-top-left-radius:18px;
+            margin-top: -30px;
+            height: 760px;
+        }
+      }
+
+
+      
