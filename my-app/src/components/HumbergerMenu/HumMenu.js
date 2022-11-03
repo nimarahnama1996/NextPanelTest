@@ -23,16 +23,6 @@ const SidebarLink = styled(Link)`
     cursor: pointer;
     border-radius:3px;
   }
-
-  &:hover{
-      img{
-      background: #ABABAB;
-      border-radius:30px;
-      padding:12px 6px;
-      margin-left:-10px
-      
-    }
-      
   }
 
  
